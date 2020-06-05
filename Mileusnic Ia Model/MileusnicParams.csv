@@ -1,0 +1,23 @@
+Parameter,Definition,Bag1,Bag2,Chain
+Ksr,Sensory region spring constant [FU/L0],10.4649,10.4649,10.4649
+Kpr,Polar region spring constant [FU/L0],0.15,0.15,0.15
+M,Intrafusal fiber mass [FU/(L0/s^2)],0.0002,0.0002,0.0002
+B0,Passive damping coefficient [FU/(L0/s)],0.0605,0.0822,0.0822
+B1,Coef Of damping due to dyn Fusimotor input [FU/L0/s)],0.2592,0,0
+B2,Coef Of damping due to stat Fusimotor input [FU/L0/s)],0,-0.046,-0.069
+Gamma1,Coef of force generation due to dyn fusimotor input [FU],0.0289,0,0
+Gamma2,Coef of force generation to to stat fusimotor input [FU},0,0.0636,0.0954
+Cl,Coeff of asymmetry in F-V curve during lengthing,1,1,1
+Cs,Coef of asymmetry in F-V curve during shortening,0.42,0.42,0.42
+X,Percentage of the seconday afferent on sensory region,0,0.7,0.7
+LNsr,Sensory region threshold length (L0),0.0423,0.0423,0.0423
+LNpr,Polar region threshold length (L0),0,0.89,0.89
+G,Term relating the sensory region's stretch to afferent firing,20000,10000,10000
+a,Nonlinear velocity dependence power constant,0.3,0.3,0.3
+R,Fascicle length below which force production is zero (L0),0.46,0.46,0.46
+L0sr,Sensory region rest length (L0),0.04,0.04,0.04
+L0pr,Polar region rest length (L0),0.76,0.76,0.76
+Lsec,Seconday afferent rest length (L0),0,0.4,0.4
+Tau,Low-pass filter time constant (s),0.149,0.205,0
+freq,Constant relating the fusimotor frequency to activation,60,60,90
+p,Power constant relating the fusimotor frequency to activation,2,2,2
